@@ -1,0 +1,19 @@
+@use 'hero';
+@use 'navbar';
+@use 'search';
+@use 'event';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+    list-style: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 100px;
+    position: relative;
+}
